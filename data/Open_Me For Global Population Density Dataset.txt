@@ -1,3 +1,6 @@
 Dataset is too large to upload, I have kept the dataset on sharedpath which is accesible by below link:
+Datasets:
 
-https://drive.google.com/file/d/1BRsLJ5sOUq_H3e7rC8X96lxlAEz4aE4t/view?usp=drive_link
+Global Microplastics Dataset by NOAA National Centers for Environmental Information (NCEI)- https://drive.google.com/file/d/1U3SOke_QdZLZDiNvfCJIMP4EdkYmc20T/view?usp=drive_link
+oceanographic variables (current velocity, temperature, salinity) from dataset by CMEMS-NetCDF - https://drive.google.com/file/d/1tGD47LRRmTVTw8JtmsrJCjLrrauz_qud/view?usp=drive_link
+Anthropogenic data from global population density rasters- https://drive.google.com/file/d/1BRsLJ5sOUq_H3e7rC8X96lxlAEz4aE4t/view?usp=drive_link
