@@ -82,6 +82,22 @@ python src/evaluation.py
 
 ---
 
+## 📊 Tableau Visualisation
+
+This project includes a Tableau workbook used to explore and visualise:
+
+- Spatial distribution of microplastics  
+- Regional hotspots  
+- Environmental correlations  
+- Temporal patterns  
+- Feature relationships  
+
+The Tableau workbook is available in the **results/** folder:
+
+- `marine_pollution.twb`
+  
+---
+
 ## 🧭 Future Work
 
 - Integrate hydrodynamic drift models  
