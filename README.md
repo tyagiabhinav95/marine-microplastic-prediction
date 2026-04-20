@@ -4,7 +4,7 @@
 **Author:** Abhinav Tyagi  
 **MSc Business Analytics, Dublin Business School**
 
-This repository contains the full implementation, analysis, and documentation for my MSc dissertation project titled:
+This repository contains the implementation, visualisations, and documentation for my MSc dissertation project titled:
 
 **Predicting Marine Microplastic Concentration Using Environmental, Spatial, and Anthropogenic Features**
 
@@ -12,20 +12,14 @@ This repository contains the full implementation, analysis, and documentation fo
 
 ## 🚀 Project Summary
 
-Microplastic pollution is a growing global concern. This project develops a machine‑learning‑based framework to predict microplastic concentration using:
+This project develops a machine‑learning‑based framework to predict microplastic concentration using:
 
 - Environmental variables (SST, salinity, ocean currents)
 - Spatial variables (latitude, longitude, region)
 - Anthropogenic variables (population density)
 - Sampling methodology (mesh size, method type)
 
-Five supervised learning models were evaluated:
-
-- Random Forest  
-- Gradient Boosting  
-- Support Vector Regression  
-- Multilayer Perceptron  
-- **XGBoost (best performer, R² ≈ 0.84)**
+The full analysis is implemented in a single Python script located in the `src/` folder.
 
 ---
 
@@ -33,69 +27,51 @@ Five supervised learning models were evaluated:
 
 ```
 docs/                     # Dissertation & presentation
-src/                      # Python scripts
-notebooks/                # Jupyter notebooks
-results/                  # Visualisations & outputs
+src/                      # Single Python script
+results/                  # Tableau workbook & visualisations
 data/                     # Sample dataset + metadata
-requirements.txt
 README.md
 ```
 
 ---
 
-## 🔧 Installation
+## 🐍 Python Script
+
+The entire machine learning workflow — preprocessing, model training, evaluation, and feature importance — is implemented in:
 
 ```
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ How to Run the Project
-
-### 1. Preprocess data
-```
-python src/preprocessing.py
-```
-
-### 2. Train models
-```
-python src/model_training.py
-```
-
-### 3. Evaluate performance
-```
-python src/evaluation.py
+src/marine_microplastic_prediction.py
 ```
 
 ---
 
-## 📊 Key Results
+## 📊 Tableau Dashboard
 
-- **XGBoost achieved the highest predictive accuracy (R² ≈ 0.84)**  
-- Most influential predictors:
-  - Geographic region  
-  - Ocean current speed  
-  - Sea surface temperature  
-  - Seasonal variability  
-  - Sampling methodology  
+This project includes a Tableau workbook used to visualise:
 
----
-
-## 📊 Tableau Visualisation
-
-This project includes a Tableau workbook used to explore and visualise:
-
-- Spatial distribution of microplastics  
-- Regional hotspots  
+- Global microplastic distribution  
+- Regional concentration patterns  
 - Environmental correlations  
-- Temporal patterns  
-- Feature relationships  
+- Temporal trends  
 
-The Tableau workbook is available in the **results/** folder:
+The Tableau file is available in the **results/** folder:
 
-- `marine_pollution.twb`
-  
+- `marine_pollution.twb`  
+- or `marine_pollution.twbx`
+
+If published online, add your link here:
+
+👉 **Tableau Dashboard:** *Add link here*
+
+---
+
+## 📄 Documentation
+
+Full dissertation and presentation slides are available in the **docs/** folder:
+
+- `Dissertation_Doc.pdf`  
+- `Presentation.pptx`
+
 ---
 
 ## 🧭 Future Work
@@ -104,13 +80,6 @@ The Tableau workbook is available in the **results/** folder:
 - Use satellite‑derived ocean circulation  
 - Apply Lagrangian particle tracking  
 - Explore deep learning architectures  
-- Develop a real‑time prediction dashboard  
-
----
-
-## 📄 Documentation
-
-Full dissertation and presentation slides are available in the **docs/** folder.
 
 ---
 
